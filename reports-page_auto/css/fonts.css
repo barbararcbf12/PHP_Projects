@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face { 
+	font-family: 'TRYG Light';
+	src: url('/media/fonts/tryglt__-webfont.eot');
+	src: local('TRYG'), local('TRYG Light'),
+		url('/media/fonts/tryglt__-webfont.woff') format('woff'),
+		url('/media/fonts/tryglt__-webfont.ttf') format('truetype'),
+		url('/media/fonts/tryglt__-webfont.svg#webfontOgzwU5f0') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TRYG Light Italic';
+	src: url('/media/fonts/tryglit_-webfont.eot');
+	src: local('TRYG'), local('TRYG Light Italic'),
+		url('/media/fonts/tryglit_-webfont.woff') format('woff'),
+		url('/media/fonts/tryglit_-webfont.ttf') format('truetype'),
+		url('/media/fonts/tryglit_-webfont.svg#webfontaNOWJlHo') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TRYG Book';
+	src: url('/media/fonts/trygbot__-webfont.eot');
+	src: local('TRYG'), local('TRYG Book'),
+		url('/media/fonts/trygbot__-webfont.woff') format('woff'),
+		url('/media/fonts/trygbot__-webfont.ttf') format('truetype'),
+		url('/media/fonts/trygbot__-webfont.svg#webfontJ24XInBP')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TRYG Book Italic';
+	src: url('/media/fonts/trygboit_-webfont.eot');
+	src: local('TRYG'), local('TRYG Book Italic'),
+		url('/media/fonts/trygboit_-webfont.woff') format('woff'),
+		url('/media/fonts/trygboit_-webfont.ttf') format('truetype'),
+		url('/media/fonts/trygboit_-webfont.svg#webfontCmnermnW')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TRYG Bold';
+	src: url('/media/fonts/trygbt__-webfont.eot');
+	src: local('TRYG'), local('TRYG Bold'),
+		url('/media/fonts/trygbt__-webfont.woff') format('woff'),
+		url('/media/fonts/trygbt__-webfont.ttf') format('truetype'),
+		url('/media/fonts/trygbt__-webfont.svg#webfontN1jP155g') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TRYG Bold Italic';
+	src: url('/media/fonts/trygbit_-webfont.eot');
+	src: local('TRYG'), local('TRYG Bold Italic'),
+		url('/media/fonts/trygbit_-webfont.woff') format('woff'),
+		url('/media/fonts/trygbit_-webfont.ttf') format('truetype'),
+		url('/media/fonts/trygbit_-webfont.svg#webfontX4su4M4m') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TRYG Black';
+	src: url('/media/fonts/trygblt_-webfont.eot');
+	src: local('TRYG'), local('TRYG Black'),
+		url('/media/fonts/trygblt_-webfont.woff') format('woff'),
+		url('/media/fonts/trygblt_-webfont.ttf') format('truetype'),
+		url('/media/fonts/trygblt_-webfont.svg#webfontX4HgybFU') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TRYG Black Italic';
+	src: url('/media/fonts/trygblit-webfont.eot');
+	src: local('TRYG'), local('TRYG Black Italic'),
+		url('/media/fonts/trygblit-webfont.woff') format('woff'),
+		url('/media/fonts/trygblit-webfont.ttf') format('truetype'),
+		url('/media/fonts/trygblit-webfont.svg#webfontzAON2BT2') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

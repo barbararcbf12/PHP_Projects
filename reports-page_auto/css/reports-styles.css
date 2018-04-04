@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* GENERAL LAYOUT */
+	body { 
+		margin: 0;
+		border: 0;
+		padding: 0;
+		background-color: #FFFFFF;
+		font-family: 'TRYG Light','TRYG Book','TRYG Black','TRYG Bold';
+		font-size: 20px;
+		color: rgba(84, 92, 95, 1.00); /* dark gray */
+	}
+	
+	#container {
+		margin: 0px auto;
+	}
+
+	/* HEADER */
+	header{
+		position: relative;
+		width: 98%;
+		margin: 0px auto;
+		border-bottom: 3px solid rgba(213,7,7,1.00); /* dark red Tryg */
+	}
+	
+	#header {
+		display: block;
+		height: 80px;
+		background-color: #FFFFFF !important;
+		position: relative;
+	}
+	
+	#logo {
+	}
+
+	#logo.image {
+		width: 120px; /*width of your image*/
+		height: 50px; /*height of your image*/
+		background-image:url("../images/logo.fw.png");
+		padding:0; /*if your want to padding */
+		float: left;
+		margin-top: 15px;
+		margin-left: 10px;
+	}
+	
+	#title {
+		float: right;
+		margin-left: 0;
+		margin-top: -7px;
+		margin-right: 20px;
+		text-align: right;
+	}
+	
+	#title h1 {
+		text-align: left;
+		margin-left: 10px;
+		font-family: 'TRYG Black','TRYG Light'; /* Group Investment tt */
+		font-size: 175%;
+		color: rgba(242,4,3,1.00); /* red Tryg */
+	}
+	
+	.text-light {
+		font-family: 'TRYG Book'; /* REPORTS tt */
+		text-shadow: 3px 3px 7px #CCCCCC;
+	}
+
+	/* MAIN */
+	section {
+		margin: 0;
+		padding: 0;
+	}
+
+	#main {
+		/*display: block;
+		height: 400px;
+		position: relative;*/
+		margin: 5px auto;
+		padding-top: 0;
+		overflow: auto;
+		padding-bottom: 0px;
+		vertical-align: top;
+	}
+
+	/* Columns */
+	#column_box {
+		width: 96%;
+		margin: 0px auto;
+		padding: 0px;
+	}
+	
+	#column {
+		/*display: block;*/
+		float: left;
+		position: relative;
+		width: 31%;
+		min-width: 250px;
+		margin: 1.5% 0.5% 2% 0.75%;
+		padding: 10px;
+		padding-top: 0px;
+		padding-left: 0px;
+		text-align: left;
+		border-radius: 0 10px 10px 10px ;  
+		background-color: rgba(244,243,228,1.00);
+		box-shadow: 3px 3px 5px #CCCCCC;
+	}
+	
+	/* Columns titles */
+	#column h1 {
+		margin: -5px -2px -5px -3px;
+		height: 55px;
+		padding: 10px 0 0 20px;
+		background-color: #FFFFFF;
+		border-radius:  10px 10px 10px 10px;
+		color: rgba(84, 92, 95, 1.00);
+		font-family: 'TRYG Light';
+		font-size: 15px;
+		border-bottom: 2px solid rgba(213,7,7,1.00);/*rgba(6,82,96,1.00);*/
+		border-left: 1px solid rgba(213,7,7,1.00);/*rgba(6,82,96,1.00);*/
+		box-shadow: 3px 3px 5px #CCCCCC;
+	}
+	
+	.h1 {
+		font-size: 16px;
+		/*font-family: "Arial narrow";*/
+		font-style: normal;
+		font-stretch: condensed;
+		margin: 0;
+		font-size: 25px;
+		color: rgba(6,82,96,1.00);
+		font-family: 'TRYG Black','TRYG Light';
+		text-shadow: 3px 3px 7px #CCCCCC; /*#023E4C*/
+	}
+	
+	/* Columns content */
+	.padding-year {
+		padding-left: 20px;
+		font-weight: 150;
+		font-size: 20px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		width: 90%;
+	}
+	
+	.padding-month {
+		padding-left: 40px;
+		font-weight: 100;
+		font-size: 16px;
+		width: 90%;
+	}
+	
+	.display-month {
+		display: inline-block;
+	}
+
+	.display-block {
+		display: block;
+	}
+	
+	/* GENERAL */
+	ul {
+		margin-left: 20px;
+		font-size: 14px;
+		list-style-type: none;
+		font-family: Tahoma, Helvetica, Arial, "sans-serif" ;
+		font-weight: 50;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	a:link {
+		color: rgba(84, 92, 95, 1.00); /* dark gray */
+		/* color: rgba(6,82,96,1.00); dark green */
+	}
+
+	a:visited {
+		color: rgba(84, 92, 95, 1.00); /* dark gray */
+		/* color: rgba(6,82,96,1.00); dark green */
+		
+	}
+
+	a:hover {
+		color: rgba(160, 160, 160, 1); /* rgba(20,185,160,1.00); light green */
+		
+	}
+
+	a:active {
+		color: rgba(242,4,3,1.00);
+		
+	}
+	
+	.clear {
+		clear: both;		
+	}
+	
+	.border {
+		border: 1px solid #000000;
+	}
+
+	.mint-color {
+		background-color: rgba(166,219,214,1.00);
+	}
+	
+	/* FOOTER */
+	footer {
+		font-family: Tahoma, Helvetica, Arial, "sans-serif" ;
+		color: rgba(84, 92, 95, 1.00); /* dark gray */
+		/* color: rgba(213,7,7,1.00); dark red tryg
+		color: rgba(242,4,3,1.00); red Tryg 
+		color: rgba(204,4,4,1.00); other red */
+		border-top: 3px solid rgba(213,7,7,1.00);
+		display: block;
+		position: relative;
+		width: 98%;
+		height: 25px;
+		margin: 0px auto;
+		font-size: 12px;
+		text-align: center;
+		vertical-align: middle;
+		padding-top: 10px;
+	}
+	
+	/* DETAILS */
+	.summary { cursor: pointer; }
+	.no-details details > * { display: none; }
+	.no-details details > summary:before { 
+		float: left; 
+		width: 20px; 
+		content: '► ';
+		font-size: 13px;
+		display: inline-block;
+	}
+	.no-details details.open > summary:before { 
+		content: '▼ ';
+		font-size: 13px; 
+	}
+	.no-details details summary { 
+		display: inline-block; 
+	}
